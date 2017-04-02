@@ -51,7 +51,7 @@ theme = "hugo-elate-theme"
     title = "TelcoNG BSS"
     description = "Using clouWay's experience in the CRM, billing, and self-service domains, TelcoNG BSS includes core functionality that covers the areas of Customer Information Management, Customer Self-Service, Customer Order Management, Customer Billing Management."
     url = "#"
-    button = "Get Details"
+    button = "Go"
     icon = "icon-wallet"
     img = "img_7.jpg"
 
@@ -59,7 +59,7 @@ theme = "hugo-elate-theme"
     title = "TelcoNG OSS"
     description = "TelcoNG OSS helps service providers bring systematic changes to their back-office systems, enabling them to generate new revenues, contain costs, and maintain customer centricity all at once."
     url = "#"
-    button = "Get Details"
+    button = "Go"
     icon = "icon-rocket"
     img = "img_8.jpg"
 
@@ -67,7 +67,7 @@ theme = "hugo-elate-theme"
     title = "TelcoNG WSS"
     description = "TelcoNG WSS Workforce Management enables Communications Service Providers (CSPs) to manage field operations as part of the end-to-end service delivery lifecycle. This elevates the visibility of resource capacity and allows for business process orchestration and performance optimization, ultimately guaranteeing improved operational efficiency and reduced TCO."
     url = "#"
-    button = "Get Details"
+    button = "Go"
     icon = "icon-wrench"
     img = "img_10.jpg"
 
@@ -149,26 +149,27 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
+    title = "Products & Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Stay in touch with your Customers"
+      description = "Sign a new agreement with a customer or change existing agreement rules without a hassle."
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Provision new services"
+      description = "Provision a new services in an easy and configurable way. Autoamtic configuration of more then thausand devices automatically without human intervention."
       icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+    [[params.services.item]]
+      title = "Monitoring your teams &amp; resources"
+      description = "Granular monitoring of work of your teams and resources spend for construction &amp; support."
+      icon = "icon-monitor" 
+
+    [[params.services.item]] 
+      title = "Reporting"
+      description = "Report work of your employees by using the data that was collected during the execution of the process in the company."
       icon = "icon-monitor"
 
   # About section
