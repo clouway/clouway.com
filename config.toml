@@ -1,0 +1,279 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "clouWay ood"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+  # You can add custom CSS
+  # custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "clouWay"
+  description = "clouWay personal site"
+  email = "sales@clouway.com"
+  # Navigation
+  [params.navigation]
+    brand = "clouWay"
+    home = "Home"
+    work = "TelcoNG"
+    testimonials = "Testimonials"
+    services = "Products"
+    about = "About"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    # [[menu.prepend]]
+    #  identifier = "hugo"
+    #  url = "#"
+    #  name = "TelcoNG"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "All you need to do your best work"
+    subtitle = 'Take a look at our products and services.'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "TelcoNG BSS"
+    description = "Using clouWay's experience in the CRM, billing, and self-service domains, TelcoNG BSS includes core functionality that covers the areas of Customer Information Management, Customer Self-Service, Customer Order Management, Customer Billing Management."
+    url = "#"
+    button = "Get Details"
+    icon = "icon-wallet"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "TelcoNG OSS"
+    description = "TelcoNG OSS helps service providers bring systematic changes to their back-office systems, enabling them to generate new revenues, contain costs, and maintain customer centricity all at once."
+    url = "#"
+    button = "Get Details"
+    icon = "icon-rocket"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "TelcoNG WSS"
+    description = "TelcoNG WSS Workforce Management enables Communications Service Providers (CSPs) to manage field operations as part of the end-to-end service delivery lifecycle. This elevates the visibility of resource capacity and allows for business process orchestration and performance optimization, ultimately guaranteeing improved operational efficiency and reduced TCO."
+    url = "#"
+    button = "Get Details"
+    icon = "icon-wrench"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = false
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+  # Work section
+  [params.work]
+    enable = false
+    title = "Work"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "Branding"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = false
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.services.item]]
+      title = "Brand &amp; Strategy"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Web &amp; Interface"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "Photo &amp; Video"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = "Our team consists of highly qualified specialists with long experience and active participation in Product Development and Operation Management"
+
+    [[params.about.item]]
+      name = "Miroslav Genov"
+      position = ""
+      description = ""
+      img = "mgenov_image.jpg"
+      alt = "Miroslav Genov"
+      social = [
+        ["icon-mail2", "mailto:miroslav.genov@clouway.com"],
+        ["icon-github", "https://github.com/mgenov"],
+        ["icon-twitter", "https://twitter.com/mgenov"],
+        ["icon-linkedin", "https://www.linkedin.com/in/miroslavgenov/"]
+      ]
+
+    [[params.about.item]]
+      name = "Rosen Velikov"
+      position = ""
+      description = ""
+      img = "rvelikov_image.png"
+      alt = "Rosen Velikov"
+      social = [
+        ["icon-mail2", "mailto:rosen.velikov@clouway.com"],
+        ["icon-github", "https://github.com/djok"],
+        ["icon-twitter", "https://twitter.com/RosenVelikov"],
+	["icon-linkedin", "https://www.linkedin.com/in/rosenvelikov/"]
+      ]
+
+    # [[params.about.item]]
+    #   name = "Larry Ben"
+    #   position = "Web Designer"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person3.jpg"
+    #   alt = "Person3"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-dribbble", "#"]
+    #   ]      
+
+  # Counters section
+  [params.counters]
+    enable = false
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    title = "Get in touch"
+    description = ""
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "41 Nikola Gabroski Blvd, <br> Veliko Tarnovo, Bulgaria 5000"],
+        ["icon-phone", "(359) 895-451701, (359) 889-942424"],
+        ["icon-envelope", "sales@clouway.com"],
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; clouWay 2017. All Rights Reserved.'
