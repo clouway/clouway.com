@@ -180,8 +180,8 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Miroslav Genov"
-      position = ""
-      description = ""
+      position = "GM"
+      description = "General Manager of the Company"
       img = "mgenov_image.jpg"
       alt = "Miroslav Genov"
       social = [
@@ -192,17 +192,31 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Rosen Velikov"
-      position = ""
-      description = ""
-      img = "rvelikov_image.png"
-      alt = "Rosen Velikov"
+      name = "Ivan Stefanov"
+      position = "Product Manager"
+      description = "OSS Division"
+      img = "istefanov_image.jpg"
+      alt = "Ivan Stefanov"
       social = [
-        ["icon-mail2", "mailto:rosen.velikov@clouway.com"],
-        ["icon-github", "https://github.com/djok"],
-        ["icon-twitter", "https://twitter.com/RosenVelikov"],
-	["icon-linkedin", "https://www.linkedin.com/in/rosenvelikov/"]
+        ["icon-mail2", "mailto:ivan.stefanov@clouway.com"],
+        ["icon-github", "https://github.com/FeNoMeNa"],
+        ["icon-twitter", "https://twitter.com/phen0mena"],
+	["icon-linkedin", "https://www.linkedin.com/in/ivan-stefanov-83048368/"]
       ]
+
+    [[params.about.item]]
+      name = "Mihail Lesikov"
+      position = "Product Manager"
+      description = "BSS Division"
+      img = "mlesikov_image.jpg"
+      alt = "Mihail Lesikov"
+      social = [
+        ["icon-mail2", "mailto:mihail.lesikov@clouway.com"],
+        ["icon-github", "https://github.com/mlesikov"],
+        ["icon-twitter", "https://twitter.com/mlesikov"],
+	["icon-linkedin", "https://www.linkedin.com/in/mihail-lesikov-49147243/"]
+      ]
+
 
     # [[params.about.item]]
     #   name = "Larry Ben"
@@ -264,7 +278,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "41 Nikola Gabroski Blvd, <br> Veliko Tarnovo, Bulgaria 5000"],
-        ["icon-phone", "(359) 895-451701, (359) 889-942424"],
+        ["icon-phone", "(359) 895-451701"],
         ["icon-envelope", "sales@clouway.com"],
       ]
 
