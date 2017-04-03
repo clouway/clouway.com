@@ -213,7 +213,6 @@ theme = "hugo-elate-theme"
       social = [
         ["icon-mail2", "mailto:mihail.lesikov@clouway.com"],
         ["icon-github", "https://github.com/mlesikov"],
-        ["icon-twitter", "https://twitter.com/mlesikov"],
 	["icon-linkedin", "https://www.linkedin.com/in/mihail-lesikov-49147243/"]
       ]
 
